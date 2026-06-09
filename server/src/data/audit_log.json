@@ -1,0 +1,43 @@
+[
+  {
+    "id": "42d3a46c-eb1a-4214-beb3-3860d0694db7",
+    "timestamp": "2026-06-09T19:59:00.142Z",
+    "agent": "HUNTER",
+    "memberId": "M001",
+    "memberName": "Grace Atieno",
+    "event": "BRIEFING_PREPARED",
+    "assignedOfficer": "Sarah Wanjiku",
+    "priority": "LOW",
+    "slaMins": 0,
+    "note": "Member Grace Atieno requires loan for school fees, Kakamega County. Officer to assess repayment capacity and provide suitable repayment schedule."
+  },
+  {
+    "id": "435566e8-b078-4b54-b9b5-d7e44f097897",
+    "timestamp": "2026-06-09T19:58:44.064Z",
+    "agent": "GUARDIAN",
+    "memberId": "M001",
+    "memberName": "Grace Atieno",
+    "event": "LOAN_SCORED",
+    "loanAmount": 28000,
+    "score": 0.75,
+    "decision": "AUTO_APPROVE",
+    "biasCheckPassed": true,
+    "riskFlags": [
+      "stress_level_medium",
+      "school_fees"
+    ],
+    "note": "Loan amount below KES 15000 and fewer than 3 risk flags"
+  },
+  {
+    "id": "4b3092c6-2cc3-4211-a22d-4d9c7a973b64",
+    "timestamp": "2026-06-09T19:58:19.809Z",
+    "agent": "SCOUT",
+    "memberId": "M001",
+    "memberName": "Grace Atieno",
+    "event": "SMS_ANALYSED",
+    "stressLevel": "MEDIUM",
+    "escalated": true,
+    "priority": "MEDIUM",
+    "note": "School fees stress"
+  }
+]
